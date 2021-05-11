@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Личный кабинет</title>
+    <link rel="stylesheet" href="css/style3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    </head>
+    <body >
+        
+    <div class="bg">
+    
+    
+        <script>
+            $(window).scroll(function () {
+                var scroll = $(window).scrollTop();
+                if (scroll < 700) {
+                    $('.fixed-top').css('background', 'transparent');
+                } else {
+                    $('.fixed-top').css('background', 'rgba(255, 120, 0, 0.4)');
+                }
+            });
+        </script>
+    
+    
+    
+        <script type="text/javascript">
+
+            $('#myModal').on('shown.bs.modal', function () {
+                $('#myInput').trigger('focus')
+            })
+
+        </script>
+    
+    
+        <nav class="navbar navbar-default fixed-top navbar-expand-lg">
+    
+            <div class="navbar-brand justify-content-center collapse navbar-collapse" id="navbarTogglerDemo03">
+                <a class="nav-link active" aria-current="page" href=""><img class="radius" src="images/17.png" alt=""
+                        width="100"></a>
+            </div>
+    
+            <div class="navbar-brand justify-content-center collapse navbar-collapse" id="navbarTogglerDemo03">
+                <a class="nav-link active" aria-current="page" href="index.html"><img class="log" src="images/7.png" alt=""
+                        width="120"></a>
+            </div>
+    
+            <div class="navbar-brand justify-content-center collapse navbar-collapse" id="navbarTogglerDemo03">
+                <a class="nav-link active" aria-current="page" href="account.html"><img class="radius" src="images/8.png"
+                        alt="" width="100"></a>
+            </div>
+            <div class="account">
+                <button class="xxxx " type="button" name="button">
+                    <div class="second">
+                        <img class="radius " src="images/18.png" alt="" width="150">
+                        <h3>Личные Данные</h3>
+                    </div>
+                </button>
+                <button class="xxxx " type="button" name="button">
+                    <div class="second">
+                        <img class="radius " src="images/19.png" alt="" width="150">
+                        <h3>Личный Счет</h3>
+                    </div>
+                </button>
+                <button class="xxxx " type="button" name="button">
+                    <div class="second">
+                        <img class="radius " src="images/20.png" alt="" width="150">
+                        <h3>История Ставок</h3>
+                    </div>
+                </button>
+                <br><br>
+                <button class="xxxx " type="button" name="button">
+                    <div class="second">
+                        <a href="/bet"><img class="radius " src="images/21.png" alt="" width="150"></a>
+                        <h3>Сделать</h3>
+                        <h3>Ставку</h3>
+                    </div>
+                </button>
+                <button class="xxxx " type="button" name="button">
+                    <div class="second">
+                        <img class="radius " src="images/22.png" alt="" width="150">
+                        <h3>Сменить Пароль</h3>
+                    </div>
+                </button>
+                <button class="xxxx " type="button">
+                    <div class="second " >
+                       <a href="/logout"><img class="radius"  src="images/23.png" alt="" width="150"></a>
+                        <h3>Выйти</h3>
+                    </div>
+                </button>
+            </div>
+    </div>
+    </body>
+</html>

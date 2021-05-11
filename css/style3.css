@@ -1,0 +1,88 @@
+.bg {
+  background-image: url(https://images.wallpaperscraft.ru/image/gazon_futbolnoe_pole_razmetka_119988_1280x720.jpg);
+  background-size: 100%;
+  min-height: 100vh;
+}
+.carousel-item {
+min-height: 525px;
+background: no-repeat center center scroll;
+background-size: 650px 590px;
+opacity: 0.9;
+}
+.radius {
+  border: 1px solid #000;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 100px;
+
+}
+.radiusnew {
+  border: 0px solid #000;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  width: 60%
+}
+.bg1{
+  background-image: url(https://images.wallpaperscraft.ru/image/basketbolnoe_koltso_vid_sverhu_miach_142309_1280x720.jpg);
+  background-size: 100%;
+  min-height: 110vh;
+}
+
+.bg2{
+  background-image: url(https://images.wallpaperscraft.ru/image/butsy_futbol_gazon_126910_1280x720.jpg);
+  background-size: 100%;
+  min-height: 100vh;
+}
+.log {
+  opacity: 0.9;
+  border-radius: 60px;
+}
+.radius {
+  opacity: 0.9;
+}
+
+.second{
+  color: white;
+
+}
+.third {
+  color: black;
+}
+
+.al {
+  margin-left: 35px;
+}
+.first {
+
+  font-family: fantasy;
+  color: black;
+}
+.too {
+  position: absolute;
+  top: 2100px;
+  width: 53%;
+  left: 25%;
+  color: white;
+  background-color: black;
+  opacity: 0.8;
+  border-radius: 12px;
+}
+.account{
+  top: -35px;
+  position: absolute;
+  align-content: center;
+  text-align: center;
+  margin-top: 180px;
+  margin-left: 260px;
+  margin-right: 250px;
+  height: 65%;
+  width: 65%;
+  font-size: 5vw;
+}
+.xxxx{
+  border-radius: 18px;
+  width: 225px;
+  margin: 5px;
+  padding: -5px;
+}

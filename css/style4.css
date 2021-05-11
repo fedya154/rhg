@@ -1,0 +1,109 @@
+.nav1 {
+  background-color: #085f00;
+  width: 1000px;
+  position: absolute;
+  left: 250px;
+}
+.bg4 {
+  background-image: url(https://images.wallpaperscraft.ru/image/futbolnyj_miach_futbol_gazon_121273_2560x1440.jpg);
+  font-family: Tahoma,Helvetica,sans-serif;
+
+}
+.navbar {
+  width: 1000px;
+  position: absolute;
+  left: 250px;
+  top: 120px;
+  background-color: #1b7700;
+}
+.navbar a {
+  padding: 12px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 12px;
+}
+
+.navbar a:hover {
+  background-color:  #085f00;
+
+}
+.btn {
+  background-color: white;
+}
+.mylig {
+  width: 212px;
+  height: 730px;
+  background-color: #414141;
+  margin-left: 10px;
+  margin-top: 10px;
+
+}
+.main {
+  width: 1000px;
+  position: absolute;
+  left: 0px;
+  top: 69px;
+  background-color: #232323
+}
+.active {
+  background-color: #706F6F;
+  color: black ;
+  font-size: 26px;
+  font-family: Tahoma,Helvetica,sans-serif;
+
+}
+.fas {
+  color: #A60000;
+}
+.mylig2 {
+  width: 212px;
+  height: 267px;
+  background-color: #414141;
+  margin-left: 10px;
+  margin-top: 10px;
+
+}
+.lig3{
+  width: 98.2%;
+  height: 50px;
+  background-color: #414141;
+  margin-left: 10px;
+  margin-top: 10px;
+
+}
+.raspis{
+  width: 762px;
+  height: 1008px;
+  background-color: #414141;
+  margin-left: 230px;
+  bottom: 60px;
+  position: absolute;
+}
+.collapsible {
+  background-color: #414141;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+}
+
+.collapsible:hover {
+  background-color: #085f00;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #232323;
+}
+.navbar-brand {
+  width: 100%;
+}
+.form-control {
+  width: 120px;
+}

@@ -1,0 +1,198 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#000000;
+
+}
+
+li {
+  float: left;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a.active {
+  font-style: oblique;
+  color: #A60000;
+
+
+}
+li a:hover {
+  background-color: #8D0000;
+}
+
+.button {
+  border: ;
+  color: black;
+  padding: 2px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  position: relative;
+}
+.button1 {background-color: #F10101;
+left: 65% ; top: 10px; border-radius: 10px;}
+.button2 {background-color: white;
+left: 67%; top: 9px;border-radius: 10px;}
+body{
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+.slidershow{
+  width: 570px;
+  height: 400px;
+  overflow: hidden;
+}
+.middle{
+  position: relative;
+  left: 1230px;
+  top: 203px;
+
+  transform: translate(-50%,-50%);
+}
+.navigation{
+  position: absolute;
+  bottom: 20px;
+  left: 40%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.bar{
+  width: 50px;
+  height: 10px;
+  border: 2px solid #fff;
+  margin: 6px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.bar:hover{
+  background: #fff;
+}
+
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides{
+  width: 350%;
+  height: 100%;
+  display: flex;
+
+}
+
+.slide{
+  width: 20%;
+  transition: 0.6s;
+}
+.slide img{
+  width: 100%;
+  height: 100%;
+}
+
+
+#r1:checked ~ .s1{
+  margin-left: 0;
+}
+#r2:checked ~ .s1{
+  margin-left: -20%;
+}
+#r3:checked ~ .s1{
+  margin-left: -40%;
+}
+#r4:checked ~ .s1{
+  margin-left: -60%;
+}
+#r5:checked ~ .s1{
+  margin-left: -80%;
+}
+
+.vertical-menu {
+  width: 150px;
+  height: 802px;
+  bottom: -207px;
+  overflow-y: auto;
+  position: absolute;
+}
+
+.vertical-menu a {
+  background-color: #272727;
+  color: white;
+  display: block;
+  padding: 18px;
+  text-decoration: none;
+
+}
+
+.vertical-menu a:hover {
+  background-color: #8D0000;
+
+}
+.lch{
+  width: 16%;
+  height: 11000mm;
+  position: relative;
+  left: 155px;
+  top: -397px;
+  margin: 0px;
+}
+.lch img{
+  width: 205%;
+  height: 1%;
+  margin: 0px;
+
+}
+
+.layer {
+  overflow: scroll;
+  width: 278px;
+  height: 398px;
+  padding: 1px;
+  background: black;
+  top: 54px;
+  margin-left: 100px;
+ }
+.second-news {
+    list-style-type: square;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #A60000;
+    width: 89.5%;
+    height: 45%;
+    left: 155px;
+    top: 500px;
+    position: absolute;
+}
+  .col-md-4{
+    right:  -400px;
+    top:50px;
+    position: relative;
+    width:15px;
+  }
+  .s{
+    position: relative;
+    left:110mm;
+    bottom: -18mm;
+  }
+  .form-control{
+    height: 35px;
+    width:80mm;
+  }
+  .num1{
+    margin-left: 15px;
+  }
+.logo {
+  margin-left: 25px;
+}
